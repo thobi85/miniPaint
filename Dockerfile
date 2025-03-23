@@ -1,5 +1,5 @@
 # Use official Node.js based on Alpine
-FROM node:16-alpine
+FROM node:current-alpine
 
 # Create dir for application
 WORKDIR /usr/src/app
